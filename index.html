@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/style.css" />
+
+  <!-- document title-->
+  <title>Coding quiz</title>
+</head>
+
+<body>
+
+
+  <a href="highscores.html">Highscores</a>
+
+<!--highscore container -->
+<div class="highscore">
+  <h1 id="highScore"></h1>
+</div>
+
+<!-- timer container -->
+
+<div class="timer-container">
+
+</div>
+
+<!--start container-->
+<div class="start-container">
+  <h1>Welcome to the code quiz</h1>
+  <h3>Click start to answer the questions</h3>
+  <button class="start-btn">Start quiz</button>
+
+</div>
+
+<!-- the main quiz contents -->
+
+
+<div id="container">
+
+  <div id="scoreContainer">
+
+    <input id="name-input" type="text" placeholder="Enter your name">
+    <button id="submit-btn">Submit</button>
+
+  </div>
+
+  <div id="questionContainer">
+    <h1 id="question"></h1>
+    <div id="choices" style="display: flex; flex-direction: column; width: 100px"></div>
+    <h2 id="query"></h2>
+  </div>
+  
+</div>
+<script src="./assets/script.js"></script>
+</body>
+
+</html>
