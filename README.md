@@ -14,7 +14,7 @@ https://github.com/ivyhermosa/quzzing-code
 
 # deployed URL:
  
- 
+ https://ivyhermosa.github.io/quzzing-code/
  
 
  
